@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ChatBOT</title>
+  <link rel="stylesheet" href="/src/Search.css">
+</head>
+<body>
+  <div class="sidebar">
+    <h2>ChatGPT</h2>
+    <input type="text" id="search-input" placeholder="Search History">
+   <!--	<button id="add-to-history">Add</button>-->
+    <ul id="history-list">
+      
+    </ul>
+  </div>
+  <div class="main-content">
+    <header>
+      <h1>What can I help with?</h1>
+    </header>
+	<div class="chat-input">
+		<input type="text" id="message-input" placeholder="Message ChatBOT" />
+		<button id="send-button">Send</button>
+	  </div>
+	  <div id="chat-history"></div>	  
+    <div class="actions">
+      <button>Create Image</button>
+      <button>Summarize Text</button>
+      <button>Surprise Me</button>
+      <button>Help Me Write</button>
+    </div>
+  </div>
+  <script src="/src/Search.js"></script>
+</body>
+</html>
